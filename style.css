@@ -1,0 +1,48 @@
+:root {
+  --color-black: #272a31;
+  --color-red: #ec5242;
+  --color-gray: #d3d3d3;
+  --color-bg-gray-light: #f8f8f8;
+  --color-bg-gray-dark: #3c3f46;
+  --color-bg-gray-darker: #272a31;
+  --padding-x-desktop: 15%;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Mobile Version*/
+
+#black-navbar {
+  display:none
+}
+
+.h-menu {
+  display: block;
+  width: 40px;
+  height: 7px;
+  background-color: rgb(83, 80, 80);
+  margin: 6px 0;
+}
+
+.hamburger-menu {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.intro-section {
+  display: flex;
+}
