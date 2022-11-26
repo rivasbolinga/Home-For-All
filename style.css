@@ -16,6 +16,7 @@ h3 {
 }
 
 body {
+  background-color: #f4f3f372;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
@@ -24,10 +25,12 @@ ul {
   list-style-type: none;
 }
 
-/* Mobile Version*/
+/* Mobile Version */
+
+/*Introduction */
 
 #black-navbar {
-  display:none
+  display: none;
 }
 
 .h-menu {
@@ -41,8 +44,119 @@ ul {
 .hamburger-menu {
   margin-top: 30px;
   margin-left: 30px;
+  position: fixed;
+  cursor: pointer;
 }
 
 .intro-section {
+  background-color: #f4f3f372;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 20px;
 }
+
+.title {
+  margin-top: 40px;
+  color: #ec5242;
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+}
+
+.title-conf {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #99423799;
+  background-image: url('assets/images.jpeg');
+  background-size: contain;
+  -webkit-background-clip: text;
+}
+
+.intro-resume-wrapper {
+  font-family: "Lato", sans-serif;
+  margin: 20px 20px 20px 0;
+  border: 1px solid white;
+  background-color: #f4f3f372;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.date-conference {
+  font-size: 20px;
+  font-weight: 800;
+  color: #5b5b5b;
+  font-family: "Roboto", sans-serif;
+}
+
+.place-conference {
+  color: #4d4d4d;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+/* Main program section */
+
+.main-program {
+  background-color: #272a31;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-content: center;
+  padding: 20px 10px 10px 10px;
+  align-items: center;
+}
+
+.program-title {
+  font-size: 20px;
+}
+
+.orange-line {
+  width: 40px;
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #ec5242;
+}
+
+.program-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #8c8c8c3a;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+  width: 92%;
+  max-width: 450px;
+}
+
+.icon-box {
+  color: #f8f8f8;
+  height: 25px;
+}
+
+.title-box {
+  color: #ec5242;
+  font-size: 14px;
+  font-weight: 800;
+  min-width: 76px;
+}
+
+.resume-box {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.77);
+}
+
+.join-btn {
+  border: none;
+  margin-top: 30px;
+  color: white;
+  padding: 20px;
+  background-color: #ec5242;
+}
+
+
+/*About section */
