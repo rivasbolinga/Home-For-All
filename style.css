@@ -27,7 +27,7 @@ ul {
 
 /* Mobile Version */
 
-/*Introduction */
+/* Introduction */
 
 #black-navbar {
   display: none;
@@ -161,11 +161,11 @@ ul {
 }
 
 
-/*About section */
+/* About section */
 .about-section {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -210,6 +210,7 @@ ul {
   font-weight: 700;
   color: #272a31;
 }
+
 .logo-section {
   display: flex;
   flex-direction: column;
@@ -243,12 +244,119 @@ ul {
   text-align: center;
   margin-top: 20px;
 }
+
 .logo-img-wrapper {
   border: 1px solid rgba(168, 168, 168, 0.509);
-  padding: 10px;
+  padding: 0 40px 0 40px;
   margin-bottom: 40px;
 }
+
 .logo-img {
-  width: 250px;
+  min-width: 200px;
+  max-width: 260px;
   height: 150px;
+}
+
+/* past section */
+
+.past-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid  rgba(168, 168, 168, 0.509);
+}
+
+.past-title {
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.past-resume {
+  font-size: 13px;
+  line-height: 20px;
+  color: #5d5c5c;
+  width: 80%;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.past-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-width: 280px;
+  max-width: 300px;
+  height: 150px;
+  background: rgb(255, 0, 0);
+  background-size: cover;
+  text-align: center;
+  font-size: 12px;
+}
+
+.tw {
+  background-image: url('./assets/pexels-photo-2833037.jpeg');
+}
+
+.nin {
+  margin-top: 20px;
+  background-image: url('./assets/AdobeStock_252154999.webp');
+  margin-bottom: 40px;
+  opacity: 1;
+}
+
+.year {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.partners {
+  background-color: #363739;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-content: center;
+  padding: 20px 10px 10px 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.partner-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.logo {
+  height: 40px;
+  filter: grayscale(100%);
+}
+
+.conference-place {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 10px;
+  color: #5d5c5c;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.conference {
+  color: black;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
