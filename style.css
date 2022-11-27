@@ -44,7 +44,6 @@ ul {
 .hamburger-menu {
   margin-top: 30px;
   margin-left: 30px;
-  position: fixed;
   cursor: pointer;
 }
 
@@ -58,10 +57,10 @@ ul {
 }
 
 .title {
-  margin-top: 40px;
+  margin-top: 10px;
   color: #ec5242;
-  font-family: "lato", sans-serif;
-  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
 }
 
 .title-conf {
@@ -78,9 +77,11 @@ ul {
   font-family: "Lato", sans-serif;
   margin: 20px 20px 20px 0;
   border: 1px solid white;
-  background-color: #f4f3f372;
+  background-color: #f4f3f355;
   padding: 15px;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4d4d4d;
 }
 
 .date-conference {
@@ -156,7 +157,98 @@ ul {
   color: white;
   padding: 20px;
   background-color: #ec5242;
+  margin-bottom: 40px;
 }
 
 
 /*About section */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.about-title {
+  margin-top: 30px;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 90%;
+}
+
+.about-title-conf {
+  font-weight: 700;
+}
+
+.about-resume-wrapper {
+  font-family: "Lato", sans-serif;
+  margin: 20px 20px 20px 0;
+  border: 1px solid rgba(168, 168, 168, 0.509);
+  background-color: white;
+  padding: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #5d5c5c;
+  margin-left: 20px;
+}
+
+.about-details {
+  font-size: 13px;
+  line-height: 20px;
+  color: #5d5c5c;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.about-email {
+  text-decoration: underline;
+  margin-top: 5px;
+  font-weight: 700;
+  color: #272a31;
+}
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.logo-title {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  margin-top: 30px;
+  width: 80%;
+  line-height: 30px;
+}
+
+.orange-line-lit {
+  color: #ec5242;
+  width: 20px;
+  background-color: #ec5242;
+  height: 1px;
+}
+
+.logo-resume {
+  font-size: 13px;
+  line-height: 20px;
+  color: #5d5c5c;
+  width: 80%;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.logo-img-wrapper {
+  border: 1px solid rgba(168, 168, 168, 0.509);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.logo-img {
+  width: 250px;
+  height: 150px;
+}
