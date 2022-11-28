@@ -7,13 +7,13 @@ const speakerBoxes = document.querySelector(".speaker-boxes");
 const speakers = [
   {
     name: "Roberto Sanchez",
-    image: "./assets/00b66d1ac26662551af857811ed6e9d3.png",
+    image: "../assets/00b66d1ac26662551af857811ed6e9d3.png",
     picture: "./assets/depositphotos_178884984-stock-photo-teacher.jpg",
     profession: "Professor of Law at the University of London",
     resume: "Roberto is a lecturer in law, and has worked at Newcastle Law School, as well as London, since 2016.",
   },
   {
-    image: "./assets/00b66d1ac26662551af857811ed6e9d3.png",
+    image: "../assets/00b66d1ac26662551af857811ed6e9d3.png",
     picture: "./assets/depositphotos_31934889-stock-photo-smiling-teacher-standing-in-classroom.jpg",
     name: "Maura Elliot",
     profession: "Professor of Law at the University of Essex (UK)",
@@ -54,7 +54,7 @@ speakers.forEach((e,i)=> {
   const html = `
   <div class=speaker-box>
   <div class=images-box>
-  <img class="speaker-img" src="${speakers[i].picture}">
+  <img class="speaker-img" src=".${speakers[i].picture}">
   </div>
   <div class="speaker-details">
     <h5 class="full-name">${speakers[i].name}</h5>
