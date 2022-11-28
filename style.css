@@ -30,13 +30,14 @@ ul {
 /* Mobile Menu */
 
 .mobile-menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 30px;
   justify-content: center;
   align-items: center;
   background-color: #272a31;
-  padding-bottom: 50px;
+  height: 700px;
+
 }
 
 .links a {
@@ -54,17 +55,17 @@ ul {
 
 .links li {
   margin-top: 30px;
-  
 }
 
 .btn-close-l {
   color: white;
-  align-self: flex-start;
+  top: 10px;
+  left: 10px;
   font-size: 35px;
+  background-color: #272a31;
   border: none;
-  background-color: #ec5242;
-  padding: 0 12px 4px 12px;
-  margin: 15px 0 0 15px;
+  width: 43px;
+  position: absolute;
 }
 
 
@@ -95,6 +96,7 @@ ul {
   justify-content: center;
   gap: 10px;
   padding-left: 20px;
+  margin-top: 40px;
 }
 
 .title {
@@ -145,13 +147,14 @@ ul {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   align-content: center;
   padding: 20px 10px 10px 10px;
   align-items: center;
 }
 
 .program-title {
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -173,6 +176,7 @@ ul {
   padding: 15px;
   width: 92%;
   max-width: 450px;
+  min-height: 80px;
 }
 
 .icon-box {
@@ -201,7 +205,64 @@ ul {
   margin-bottom: 40px;
 }
 
+/* Speakers section */
 
+.speakers-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.speakers-title {
+  margin-top: 40px;
+  text-align: center;
+  padding-left: 10px;
+} 
+
+.speaker-box {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  max-height: 200px;
+  background-image: url("./assets/00b66d1ac26662551af857811ed6e9d3.png");
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: 0 20px;
+}
+
+.speaker-img {
+ margin-left: 10px;
+ margin-top: 20px;
+  max-width: 100px;
+  height: 70px;
+}
+
+
+.full-name {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.profession {
+  color: #ec5242;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.grey-line {
+  background-color: #7a7979;
+  width: 20px;
+  height: 1px;
+  margin: 5px 0 5px 0;
+}
 /* About section */
 
 .about-section {
@@ -223,6 +284,7 @@ ul {
 }
 
 .about-title-conf {
+  margin-top: 20px;
   font-weight: 700;
 }
 
@@ -284,7 +346,7 @@ ul {
   width: 80%;
   margin-bottom: 40px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .logo-img-wrapper {
@@ -315,6 +377,7 @@ ul {
   margin-top: 40px;
   text-align: center;
   padding-left: 10px;
+  margin-bottom: 0;
 }
 
 .past-resume {
@@ -323,6 +386,7 @@ ul {
   color: #5d5c5c;
   width: 80%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .past-box {
@@ -335,7 +399,7 @@ ul {
   background-size: cover;
   text-align: center;
   background-color: #f43b26;
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
