@@ -1,6 +1,6 @@
 'use script'
 
-const speakerSection = document.querySelector(".speakers-section");
+const speakerBoxes = document.querySelector(".speaker-boxes");
 
 //ARRAY of speakers:
 
@@ -50,8 +50,7 @@ const speakers = [
 ];
 
 speakers.forEach((e,i)=> {
-  const speakerBox = document.createElement("div");
-  speakerBox.className = "speaker-box";
+ 
   const html = `
   <div class=speaker-box>
   <div class=images-box>
@@ -64,5 +63,5 @@ speakers.forEach((e,i)=> {
     <p class="resume">${speakers[i].resume}</p>
     </div>
 </div>`
-speakerSection.insertAdjacentHTML('beforeend', html);
+speakerBoxes.insertAdjacentHTML('beforeend', html);
 });
