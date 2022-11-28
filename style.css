@@ -27,6 +27,47 @@ ul {
 
 /* Mobile Version */
 
+/* Mobile Menu */
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #272a31;
+  padding-bottom: 50px;
+}
+
+.links a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #363739;
+  font-size: 28px;
+  font-weight: 600;
+  color:#ec53428a;
+  background-image: url('assets/images.jpeg');
+  background-size: contain;
+  -webkit-background-clip: text;
+  
+}
+
+.links li {
+  margin-top: 30px;
+  
+}
+
+.btn-close-l {
+  color: white;
+  align-self: flex-start;
+  font-size: 35px;
+  border: none;
+  background-color: #ec5242;
+  padding: 0 12px 4px 12px;
+  margin: 15px 0 0 15px;
+}
+
+
 /* Introduction */
 
 #black-navbar {
@@ -162,6 +203,7 @@ ul {
 
 
 /* About section */
+
 .about-section {
   display: flex;
   flex-direction: column;
@@ -266,12 +308,13 @@ ul {
   align-items: center;
   background-color: white;
   border: 1px solid  rgba(168, 168, 168, 0.509);
+  gap: 10px;
 }
 
 .past-title {
   margin-top: 40px;
-  margin-left: 20px;
   text-align: center;
+  padding-left: 10px;
 }
 
 .past-resume {
@@ -279,9 +322,7 @@ ul {
   line-height: 20px;
   color: #5d5c5c;
   width: 80%;
-  margin-bottom: 40px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .past-box {
@@ -291,30 +332,35 @@ ul {
   justify-content: center;
   align-items: center;
   color: white;
-  min-width: 280px;
-  max-width: 300px;
-  height: 150px;
-  background: rgb(255, 0, 0);
   background-size: cover;
   text-align: center;
-  font-size: 12px;
+  background-color: #f43b26;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.tw {
-  background-image: url('./assets/pexels-photo-2833037.jpeg');
-}
-
-.nin {
-  margin-top: 20px;
-  background-image: url('./assets/AdobeStock_252154999.webp');
-  margin-bottom: 40px;
-  opacity: 1;
+.img-past {
+  min-width: 280px;
+  max-width: 30px;
+  height: 170px;
+  position:relative;
+  box-sizing: border-box;
+  filter: opacity(0.3);
 }
 
 .year {
+  position: absolute;
   font-weight: 700;
   font-size: 30px;
 }
+
+.place {
+  position: absolute;
+  margin-top: 60px;
+  font-size: 12px;
+}
+
+/* Partners section */
 
 .partners {
   background-color: #363739;
@@ -323,7 +369,7 @@ ul {
   flex-direction: column;
   gap: 5px;
   align-content: center;
-  padding: 20px 10px 10px 10px;
+  padding: 20px 10px 10px 20px;
   align-items: center;
   width: 100%;
 }
@@ -341,6 +387,8 @@ ul {
   filter: grayscale(100%);
 }
 
+/* Footer*/
+
 .conference-place {
   width: 100%;
   background-color: white;
@@ -357,6 +405,7 @@ ul {
 .conference {
   color: black;
   font-size: 12px;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   margin-bottom: 30px;
 }
