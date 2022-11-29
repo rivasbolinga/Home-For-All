@@ -53,24 +53,14 @@ ul {
 
 /* Mobile Menu STARTS HERE */
 
-
-
 /* Mobile Menu */
-
-#white-navbar {
-  display: none;
-}
-
-#black-navbar {
-  display: none;
-}
 
 .mobile-menu {
   display: none;
   position: fixed;
   flex-direction: column;
   background-color: #272a31;
-  top:0; 
+  top: 0;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -89,7 +79,6 @@ ul {
   color: #ec53428a;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -102,20 +91,6 @@ ul {
   border: none;
   width: 43px;
   position: absolute;
-}
-
-.h-menu {
-  display: block;
-  width: 40px;
-  height: 7px;
-  background-color: rgb(83, 80, 80);
-  margin: 6px 0;
-}
-
-.hamburger-menu {
-  margin-top: 30px;
-  margin-left: 30px;
-  cursor: pointer;
 }
 
 /* Mobile Menu ENDS HERE */

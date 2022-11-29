@@ -32,7 +32,7 @@ ul {
   position: fixed;
   flex-direction: column;
   background-color: #272a31;
-  top:0; 
+  top: 0;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -51,9 +51,7 @@ ul {
   color: #ec53428a;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
-  background-clip: text;
   -webkit-background-clip: text;
-
 }
 
 .btn-close-l {
@@ -90,11 +88,13 @@ ul {
   justify-content: center;
   gap: 10px;
   padding-left: 20px;
-  padding-top:100px;
+  padding-top: 100px;
   background-image:
-  linear-gradient(rgba(253, 253, 253, 0.88),
-  rgba(253, 253, 253, 0.88)),
-   url('../assets/background.jpg');
+    linear-gradient(
+      rgba(253, 253, 253, 0.88),
+      rgba(253, 253, 253, 0.88)
+    ),
+    url('../assets/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -113,7 +113,6 @@ ul {
   color: #99423799;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -521,7 +520,7 @@ footer {
   }
 
   .title-conf {
-    width:1000px
-      font-size 60px;
+    width: 1000px;
+    font-size: 60px;
   }
 }
