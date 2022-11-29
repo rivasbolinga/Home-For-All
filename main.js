@@ -58,7 +58,7 @@ if (!desktop.matches) {
     const html = `
     <div class=speaker-box>
     <div class=images-box>
-    <img class="speaker-img" src=".${speakers[i].picture}">
+    <img class="speaker-img" src="${speakers[i].picture}">
     </div>
     <div class="speaker-details">
       <h5 class="full-name">${speakers[i].name}</h5>
