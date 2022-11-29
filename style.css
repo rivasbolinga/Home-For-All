@@ -77,7 +77,7 @@ ul {
   font-size: 22px;
   font-weight: 600;
   color: #ec53428a;
-  background-image: url('../assets/images.jpeg');
+  background-image: url('./assets/images.jpeg');
   background-size: contain;
   -webkit-background-clip: text;
 }
