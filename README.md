@@ -145,7 +145,7 @@ Photo by <a href="https://unsplash.com/@derstudi?utm_source=unsplash&utm_medium=
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](/) licensed.
+This project is [MIT](https://github.com/rivasbolinga/Home-For-All/blob/first-features/MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
