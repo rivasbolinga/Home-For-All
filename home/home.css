@@ -311,7 +311,6 @@ footer {
 /* Desktop version */
 
 @media only screen and (min-width: 768px) {
-
   /* Navbars */
 
   .hamburger-menu {
@@ -436,8 +435,8 @@ footer {
     text-decoration: underline;
     cursor: pointer;
   }
- 
-/* Speakers */
+
+  /* Speakers */
 
   .more-box {
     display: none;
@@ -540,7 +539,6 @@ footer {
 
   .intro-section {
     padding-left: 300px;
-   
   }
 
   .title-conf {

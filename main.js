@@ -49,11 +49,11 @@ const speakers = [
   },
 ];
 
-//Display speakers
+// Display speakers
 const desktop = window.matchMedia('(max-width:767px');
 const btnMore = document.querySelector('.more-box');
 
-if(!desktop.matches) {
+if (!desktop.matches) {
   speakers.forEach((e, i) => {
     const html = `
     <div class=speaker-box>
@@ -68,10 +68,9 @@ if(!desktop.matches) {
       </div>
   </div>`;
     speakerBoxes.insertAdjacentHTML('beforeend', html);
-});
-
+  });
 } else {
-  for(let i = 0; i < 2; i+=1) {
+  for (let i = 0; i < 2; i += 1) {
     const html = `
     <div class=speaker-box>
     <div class=images-box>
@@ -86,8 +85,8 @@ if(!desktop.matches) {
   </div>`;
     speakerBoxes.insertAdjacentHTML('beforeend', html);
   }
-  btnMore.addEventListener('click',function() {
-    for(let i = 2; i < speakers.length; i+=1) {
+  btnMore.addEventListener('click', () => {
+    for (let i = 2; i < speakers.length; i += 1) {
       const html = `
       <div class=speaker-box>
       <div class=images-box>
@@ -101,11 +100,10 @@ if(!desktop.matches) {
         </div>
     </div>`;
       speakerBoxes.insertAdjacentHTML('beforeend', html);
-  }
-  btnMore.style.display = "none";
-  })
+    }
+    btnMore.style.display = 'none';
+  });
 }
-
 
 // Open mobile menu
 
