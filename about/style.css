@@ -97,6 +97,10 @@ ul {
 
 /* About section */
 
+.no {
+  display: none;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
@@ -268,7 +272,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  align-content: center;
   padding: 20px 10px 10px 20px;
   align-items: center;
   width: 100%;
@@ -287,6 +290,7 @@ ul {
   gap: 30px;
   flex-wrap: wrap;
   padding: 20px;
+  justify-content: center;
 }
 
 .logo {
@@ -294,6 +298,9 @@ ul {
   filter: grayscale(100%);
 }
 
+.partner-title {
+  font-size: 17px;
+}
 /* Footer */
 
 footer {

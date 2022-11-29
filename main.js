@@ -49,21 +49,63 @@ const speakers = [
   },
 ];
 
-speakers.forEach((e, i) => {
-  const html = `
-  <div class=speaker-box>
-  <div class=images-box>
-  <img class="speaker-img" src=".${speakers[i].picture}">
-  </div>
-  <div class="speaker-details">
-    <h5 class="full-name">${speakers[i].name}</h5>
-    <p class="profession">${speakers[i].profession}</p>
-    <div class="grey-line"></div>
-    <p class="resume">${speakers[i].resume}</p>
+//Display speakers
+const desktop = window.matchMedia('(max-width:767px');
+const btnMore = document.querySelector('.more-box');
+
+if(!desktop.matches) {
+  speakers.forEach((e, i) => {
+    const html = `
+    <div class=speaker-box>
+    <div class=images-box>
+    <img class="speaker-img" src=".${speakers[i].picture}">
     </div>
-</div>`;
-  speakerBoxes.insertAdjacentHTML('beforeend', html);
+    <div class="speaker-details">
+      <h5 class="full-name">${speakers[i].name}</h5>
+      <p class="profession">${speakers[i].profession}</p>
+      <div class="grey-line"></div>
+      <p class="resume">${speakers[i].resume}</p>
+      </div>
+  </div>`;
+    speakerBoxes.insertAdjacentHTML('beforeend', html);
 });
+
+} else {
+  for(let i = 0; i < 2; i+=1) {
+    const html = `
+    <div class=speaker-box>
+    <div class=images-box>
+    <img class="speaker-img" src=".${speakers[i].picture}">
+    </div>
+    <div class="speaker-details">
+      <h5 class="full-name">${speakers[i].name}</h5>
+      <p class="profession">${speakers[i].profession}</p>
+      <div class="grey-line"></div>
+      <p class="resume">${speakers[i].resume}</p>
+      </div>
+  </div>`;
+    speakerBoxes.insertAdjacentHTML('beforeend', html);
+  }
+  btnMore.addEventListener('click',function() {
+    for(let i = 2; i < speakers.length; i+=1) {
+      const html = `
+      <div class=speaker-box>
+      <div class=images-box>
+      <img class="speaker-img" src=".${speakers[i].picture}">
+      </div>
+      <div class="speaker-details">
+        <h5 class="full-name">${speakers[i].name}</h5>
+        <p class="profession">${speakers[i].profession}</p>
+        <div class="grey-line"></div>
+        <p class="resume">${speakers[i].resume}</p>
+        </div>
+    </div>`;
+      speakerBoxes.insertAdjacentHTML('beforeend', html);
+  }
+  btnMore.style.display = "none";
+  })
+}
+
 
 // Open mobile menu
 

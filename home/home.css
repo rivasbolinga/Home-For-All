@@ -283,6 +283,23 @@ ul {
   margin: 5px 0 5px 0;
 }
 
+.more-box {
+  margin-top: 50px;
+  display: flex;
+  border: 0.5px solid rgb(198, 196, 196);
+  background: none;
+  font-size: 12px;
+  padding: 10px 160px 10px 160px;
+  cursor: pointer;
+}
+
+.arrow-box {
+  color: #ec5242;
+  font-size: 13px;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
 footer {
   display: none;
 }
@@ -294,6 +311,7 @@ footer {
 /* Desktop version */
 
 @media only screen and (min-width: 768px) {
+
   /* Navbars */
 
   .hamburger-menu {
@@ -418,6 +436,12 @@ footer {
     text-decoration: underline;
     cursor: pointer;
   }
+ 
+/* Speakers */
+
+  .more-box {
+    display: none;
+  }
 
   .speakers-title {
     font-size: 17px;
@@ -516,7 +540,7 @@ footer {
 
   .intro-section {
     padding-left: 300px;
-    background-position: 650px 100px;
+   
   }
 
   .title-conf {
