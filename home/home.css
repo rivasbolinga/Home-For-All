@@ -23,29 +23,36 @@ ul {
   display: none;
 }
 
+#black-navbar {
+  display: none;
+}
+
 .mobile-menu {
   display: none;
+  position: fixed;
   flex-direction: column;
-  gap: 30px;
+  background-color: #272a31;
+  top:0; 
+  width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: #272a31;
-  height: 700px;
+  height: 620px;
+}
+
+.links li {
+  margin-bottom: 30px;
 }
 
 .links a {
   list-style-type: none;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
   color: #ec53428a;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
   -webkit-background-clip: text;
-}
 
-.links li {
-  margin-top: 30px;
 }
 
 .btn-close-l {
@@ -57,10 +64,6 @@ ul {
   border: none;
   width: 43px;
   position: absolute;
-}
-
-#black-navbar {
-  display: none;
 }
 
 .h-menu {
