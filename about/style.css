@@ -89,8 +89,8 @@ ul {
   color: #ec53428a;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
+  background-clip: text;
   -webkit-background-clip: text;
-
 }
 
 .btn-close-l {

@@ -73,7 +73,8 @@ const btnOpenMenu = document.querySelector('.hamburger-menu');
 
 
 const openMenu = function() {
-  mobileMenu.style.display="flex";
+  mobileMenu.style.display = "flex";
+  btnOpenMenu.style.display = "none";
 }
 btnOpenMenu.addEventListener('click', openMenu);
 
@@ -84,6 +85,7 @@ const linkSection = document.querySelector('.links');
 
 const closeMenu = function() {
   mobileMenu.style.display = "none";
+  btnOpenMenu.style.display = "block";
 }
 
 btnCloseMenu.addEventListener("click", closeMenu);

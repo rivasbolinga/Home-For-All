@@ -51,6 +51,7 @@ ul {
   color: #ec53428a;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
+  background-clip: text;
   -webkit-background-clip: text;
 
 }
@@ -67,7 +68,6 @@ ul {
 }
 
 .h-menu {
-  display: block;
   width: 40px;
   height: 7px;
   background-color: rgb(83, 80, 80);
@@ -75,6 +75,7 @@ ul {
 }
 
 .hamburger-menu {
+  position: absolute;
   margin-top: 30px;
   margin-left: 30px;
   cursor: pointer;
@@ -89,7 +90,13 @@ ul {
   justify-content: center;
   gap: 10px;
   padding-left: 20px;
-  margin-top: 40px;
+  padding-top:100px;
+  background-image:
+  linear-gradient(rgba(253, 253, 253, 0.88),
+  rgba(253, 253, 253, 0.88)),
+   url('../assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -106,6 +113,7 @@ ul {
   color: #99423799;
   background-image: url('../assets/images.jpeg');
   background-size: contain;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -291,6 +299,7 @@ footer {
 
   .hamburger-menu {
     display: none;
+    visibility: hidden;
   }
 
   #black-navbar {
@@ -347,10 +356,7 @@ footer {
     padding-top: 80px;
     margin: 0;
     gap: 0;
-    background-image: url("../assets/4552604-globe-internet-sphere-web_121385.png");
-    background-position: 450px 100px;
-    background-repeat: no-repeat;
-    background-size: 70px;
+    background-size: cover;
   }
 
   .title {
