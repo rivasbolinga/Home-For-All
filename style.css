@@ -417,3 +417,109 @@ footer {
     max-width: 200px;
   }
 }
+@media only screen and (min-width: 1168px) {
+
+  /* Navbars */
+
+  #black-navbar {
+    padding-left: 980px;
+    font-size: 15px;
+    gap: 20px;
+  }
+
+  #white-navbar {
+    font-size: 15px;
+  }
+
+  .navigation-div {
+    gap: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+  }
+
+  .ar-campaign {
+    border: 4px solid;
+  }
+
+  .navbar-logo {
+    width: 120px;
+    margin-left: 100px;
+  }
+
+  /* About */
+
+  .about-title-conf {
+    font-size: 65px;
+  }
+
+  .about-title {
+    max-width: 700px;
+  }
+
+  .about-resume-text {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 12px;
+  }
+
+  .about-resume-wrapper {
+    max-width: 900px;
+  }
+
+  .about-details {
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  /* logo */
+
+  .logo-title {
+    margin-top: 40px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .logo-resume {
+    font-size: 15px;
+  }
+
+  .logo-img {
+    max-width: 400px;
+    height: 250px;
+  }
+
+  /* past */
+
+  .past-title {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  .past-resume {
+    font-size: 17px;
+  }
+
+  .img-past {
+    min-width: 500px;
+    height: 260px;
+  }
+
+  .place {
+    font-size: 20px;
+   
+  }
+
+  /* footer */
+
+  footer {
+    font-size: 20px;
+    gap: 100px
+   }
+
+   .conference {
+    font-size: 22px;
+    max-width: 300px;
+   }
+}
