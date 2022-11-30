@@ -36,7 +36,7 @@ ul {
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 620px;
+  height: 800px;
 }
 
 .links li {
@@ -476,7 +476,6 @@ footer {
 
   .speaker-box {
     width: 300px;
-    background-image: url("./assets/ejemplo-gris-y-blanco-cuadros-útil-como-fondo-110818728.jpg");
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: 4px;
