@@ -250,15 +250,15 @@ ul {
   max-height: 200px;
   background-image: url("./assets/00b66d1ac26662551af857811ed6e9d3.png");
   background-repeat: no-repeat;
-  background-size: 70px;
+  background-size: 50px;
   background-position: 0 20px;
 }
 
 .speaker-img {
-  margin-left: 10px;
-  margin-top: 20px;
-  width: 130px;
-  height: 90px;
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 90px;
+  height: 60px;
 }
 
 .full-name {
