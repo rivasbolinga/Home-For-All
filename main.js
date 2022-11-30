@@ -7,13 +7,13 @@ const speakerBoxes = document.querySelector('.speaker-boxes');
 const speakers = [
   {
     name: 'Roberto Sanchez',
-    image: '../assets/00b66d1ac26662551af857811ed6e9d3.png',
+    image: './assets/00b66d1ac26662551af857811ed6e9d3.png',
     picture: './assets/depositphotos_178884984-stock-photo-teacher.jpg',
     profession: 'Professor of Law at the University of London',
     resume: 'Roberto is a lecturer in law, and has worked at Newcastle Law School, as well as London, since 2016.',
   },
   {
-    image: '../assets/00b66d1ac26662551af857811ed6e9d3.png',
+    image: './assets/00b66d1ac26662551af857811ed6e9d3.png',
     picture: './assets/depositphotos_31934889-stock-photo-smiling-teacher-standing-in-classroom.jpg',
     name: 'Maura Elliot',
     profession: 'Professor of Law at the University of Essex (UK)',
@@ -52,10 +52,13 @@ const speakers = [
 // Display speakers
 const desktop = window.matchMedia('(max-width:767px');
 const btnMore = document.querySelector('.more-box');
+const btnLess = document.querySelector('.less-box');
+// Creating the feature speaker section dynamically
 
-if (!desktop.matches) {
-  speakers.forEach((e, i) => {
-    const html = `
+const showSpeakers = function (n) {
+  let html = '';
+  for (let i = 0; i < n; i += 1) {
+    html += `
     <div class=speaker-box>
     <div class=images-box>
     <img class="speaker-img" src="${speakers[i].picture}">
@@ -67,43 +70,39 @@ if (!desktop.matches) {
       <p class="resume">${speakers[i].resume}</p>
       </div>
   </div>`;
-    speakerBoxes.insertAdjacentHTML('beforeend', html);
-  });
-} else {
-  for (let i = 0; i < 2; i += 1) {
-    const html = `
-    <div class=speaker-box>
-    <div class=images-box>
-    <img class="speaker-img" src=".${speakers[i].picture}">
-    </div>
-    <div class="speaker-details">
-      <h5 class="full-name">${speakers[i].name}</h5>
-      <p class="profession">${speakers[i].profession}</p>
-      <div class="grey-line"></div>
-      <p class="resume">${speakers[i].resume}</p>
-      </div>
-  </div>`;
-    speakerBoxes.insertAdjacentHTML('beforeend', html);
   }
-  btnMore.addEventListener('click', () => {
-    for (let i = 2; i < speakers.length; i += 1) {
-      const html = `
-      <div class=speaker-box>
-      <div class=images-box>
-      <img class="speaker-img" src=".${speakers[i].picture}">
-      </div>
-      <div class="speaker-details">
-        <h5 class="full-name">${speakers[i].name}</h5>
-        <p class="profession">${speakers[i].profession}</p>
-        <div class="grey-line"></div>
-        <p class="resume">${speakers[i].resume}</p>
-        </div>
-    </div>`;
-      speakerBoxes.insertAdjacentHTML('beforeend', html);
-    }
-    btnMore.style.display = 'none';
-  });
-}
+  speakerBoxes.innerHTML = html;
+};
+
+const loading = function () {
+  if (!desktop.matches) {
+    showSpeakers(speakers.length);
+  } else {
+    showSpeakers(2);
+  }
+};
+window.addEventListener('load', () => {
+  loading();
+});
+window.addEventListener('resize', () => {
+  loading();
+});
+
+// show more and less
+
+const showMore = function () {
+  showSpeakers(speakers.length);
+  btnMore.style.display = 'none';
+  btnLess.style.display = 'flex';
+  // show less
+  const showLess = function () {
+    showSpeakers(2);
+    btnMore.style.display = 'flex';
+    btnLess.style.display = 'none';
+  };
+  btnLess.addEventListener('click', showLess);
+};
+btnMore.addEventListener('click', showMore);
 
 // Open mobile menu
 

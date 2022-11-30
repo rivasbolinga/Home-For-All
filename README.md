@@ -90,7 +90,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
- 1.Clone this repository to your desired folder:
+ 1.Clone this repository to your desired folder:<br>
  2.run: git clone git@github.com:rivasbolinga/Portfolio.git
  2.Open the file in your code editor
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
