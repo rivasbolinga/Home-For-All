@@ -80,19 +80,29 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
- -A PC running any operating system like Windows, Linux, or MacOS
- -An Internet connection
- -A browser like Google Chrome or Mozilla Firefox
+
+ -A PC running any operating system like Windows, Linux, or MacOS.
+ 
+ -An Internet connection.
+ 
+ -A browser like Google Chrome or Mozilla Firefox.
+ 
  -Git installed
+ 
  -Knowledge of some basic Git commands
 
 ### Setup
 
 Clone this repository to your desired folder:
 
- 1.Clone this repository to your desired folder:<br>
+
+ 1.Clone this repository to your desired folder:
+ 
+
  2.run: git clone git@github.com:rivasbolinga/Portfolio.git
+ 
  2.Open the file in your code editor
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -132,7 +142,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Original design idea by Cindy Shin in Behance. behance.net/adagio07
+> Original design idea by Cindy Shin in Behance. behance.net/adagio07 
+>
 >Background picture on the introduction section from:
 Photo by <a href="https://unsplash.com/@derstudi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Timon Studler</a> on <a href="https://unsplash.com/photos/ABGaVhJxwDQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
@@ -145,7 +156,7 @@ Photo by <a href="https://unsplash.com/@derstudi?utm_source=unsplash&utm_medium=
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](/) licensed.
+This project is [MIT](https://github.com/rivasbolinga/Home-For-All/blob/first-features/MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
