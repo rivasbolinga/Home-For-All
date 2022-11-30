@@ -108,7 +108,7 @@ ul {
 
 .title-conf {
   font-family: "Roboto", sans-serif;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 900;
   color: #99423799;
   background-image: url('./assets/images.jpeg');
@@ -122,13 +122,13 @@ ul {
   border: 1px solid white;
   background-color: #f4f3f355;
   padding: 15px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
   color: #4d4d4d;
 }
 
 .date-conference {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   color: #5b5b5b;
   font-family: "Roboto", sans-serif;
@@ -136,7 +136,7 @@ ul {
 
 .place-conference {
   color: #4d4d4d;
-  margin-top: 10px;
+  margin-top: 13px;
   margin-bottom: 60px;
 }
 
@@ -155,7 +155,7 @@ ul {
 
 .program-title {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -196,14 +196,14 @@ ul {
 
 .title-box {
   color: #ec5242;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
-  min-width: 76px;
+  min-width: 84px;
 }
 
 .resume-box {
   padding-left: 5px;
-  font-size: 11px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.77);
 }
 
@@ -257,23 +257,23 @@ ul {
 .speaker-img {
   margin-left: 10px;
   margin-top: 20px;
-  width: 100px;
-  height: 70px;
+  width: 130px;
+  height: 90px;
 }
 
 .full-name {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 800;
 }
 
 .profession {
   color: #ec5242;
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
 }
 
 .resume {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .grey-line {
@@ -547,7 +547,6 @@ footer {
 }
 
 @media only screen and (min-width: 1168px) {
-
   /* Navbars */
 
   #black-navbar {
@@ -576,17 +575,17 @@ footer {
     margin-left: 100px;
   }
 
-  /*Intro section */
+  /* Intro section */
 
   .intro-section {
     padding-left: 200px;
   }
 
   .hello-title {
-    font-size: 40px
+    font-size: 40px;
   }
 
-  .title-conf{
+  .title-conf {
     font-size: 85px;
     max-width: 800px;
   }
@@ -650,44 +649,45 @@ footer {
     font-size: 15px;
   }
 
-   .profession {
+  .profession {
     font-size: 15px;
-   }
+  }
 
-   .full-name {
+  .full-name {
     font-size: 19px;
-   }
+  }
 
-   .speaker-img {
+  .speaker-img {
     width: 140px;
     height: 100px;
-   }
+  }
 
-    /* Partner section */
+  /* Partner section */
 
-   .partner-title {
+  .partner-title {
     margin-top: 20px;
     font-size: 22px;
     margin-bottom: 10px;
-   }
+  }
 
-   .logo {
+  .logo {
     height: 60px;
     margin-top: 20px;
     margin-bottom: 40px;
-   }
+  }
 
-   .partner-logo {
+  .partner-logo {
     gap: 45px;
-   }
+  }
 
-    /* Footer */
+  /* Footer */
 
-   footer {
+  footer {
     font-size: 20px;
-    gap: 100px
-   }
-   .conference {
+    gap: 100px;
+  }
+
+  .conference {
     font-size: 22px;
-   }
+  }
 }

@@ -115,13 +115,12 @@ ul {
   margin-top: 30px;
   color: #ec5242;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
-  width: 90%;
+  font-size: 26px;
+  width: 97%;
 }
 
 .about-title-conf {
   font-family: "Roboto", sans-serif;
-  margin-top: 22px;
   font-weight: 900;
 }
 
@@ -138,7 +137,7 @@ ul {
 }
 
 .about-details {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
   color: #5d5c5c;
   width: 80%;
@@ -180,7 +179,7 @@ ul {
 }
 
 .logo-resume {
-  font-size: 11px;
+  font-size: 15px;
   line-height: 20px;
   color: #5d5c5c;
   width: 80%;
@@ -221,7 +220,7 @@ ul {
 }
 
 .past-resume {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
   color: #5d5c5c;
   width: 80%;
@@ -294,12 +293,12 @@ ul {
 }
 
 .logo {
-  height: 40px;
+  height: 45px;
   filter: grayscale(100%);
 }
 
 .partner-title {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Footer */
@@ -312,7 +311,7 @@ footer {
   gap: 20px;
   padding: 20px;
   margin: 0;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .conference {
@@ -417,8 +416,8 @@ footer {
     max-width: 200px;
   }
 }
-@media only screen and (min-width: 1168px) {
 
+@media only screen and (min-width: 1168px) {
   /* Navbars */
 
   #black-navbar {
@@ -508,18 +507,17 @@ footer {
 
   .place {
     font-size: 20px;
-   
   }
 
   /* footer */
 
   footer {
     font-size: 20px;
-    gap: 100px
-   }
+    gap: 100px;
+  }
 
-   .conference {
+  .conference {
     font-size: 22px;
     max-width: 300px;
-   }
+  }
 }
