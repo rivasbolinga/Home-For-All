@@ -1,6 +1,11 @@
-'use script';
-
-const speakerBoxes = document.querySelector('.speaker-boxes');
+const speakerBoxesContainer = document.querySelector('.speaker-boxes');
+const desktopMediaQuery = window.matchMedia('(max-width: 767px)');
+const btnMore = document.querySelector('.more-box');
+const btnLess = document.querySelector('.less-box');
+const mobileMenu = document.querySelector('.mobile-menu');
+const btnOpenMenu = document.querySelector('.hamburger-menu');
+const btnCloseMenu = document.querySelector('.btn-close-l');
+const linkSection = document.querySelector('.links');
 
 // ARRAY of speakers:
 
@@ -49,81 +54,61 @@ const speakers = [
   },
 ];
 
-// Display speakers
-const desktop = window.matchMedia('(max-width:767px');
-const btnMore = document.querySelector('.more-box');
-const btnLess = document.querySelector('.less-box');
-// Creating the feature speaker section dynamically
-
-const showSpeakers = function (n) {
+function generateSpeakerBoxes(n) {
   let html = '';
   for (let i = 0; i < n; i += 1) {
+    const speaker = speakers[i];
     html += `
-    <div class=speaker-box>
-    <div class=images-box>
-    <img class="speaker-img" src="${speakers[i].picture}">
-    </div>
-    <div class="speaker-details">
-      <h5 class="full-name">${speakers[i].name}</h5>
-      <p class="profession">${speakers[i].profession}</p>
-      <div class="grey-line"></div>
-      <p class="resume">${speakers[i].resume}</p>
-      </div>
-  </div>`;
+      <div class="speaker-box">
+        <div class="images-box">
+          <img class="speaker-img" src="${speaker.picture}">
+        </div>
+        <div class="speaker-details">
+          <h5 class="full-name">${speaker.name}</h5>
+          <p class="profession">${speaker.profession}</p>
+          <div class="grey-line"></div>
+          <p class="resume">${speaker.resume}</p>
+        </div>
+      </div>`;
   }
-  speakerBoxes.innerHTML = html;
-};
+  speakerBoxesContainer.innerHTML = html;
+}
 
-const loading = function () {
-  if (!desktop.matches) {
-    showSpeakers(speakers.length);
+function showSpeakers() {
+  if (desktopMediaQuery.matches) {
+    generateSpeakerBoxes(2);
   } else {
-    showSpeakers(2);
+    generateSpeakerBoxes(speakers.length);
   }
-};
-window.addEventListener('load', () => {
-  loading();
-});
-window.addEventListener('resize', () => {
-  loading();
-});
+}
 
-// show more and less
-
-const showMore = function () {
-  showSpeakers(speakers.length);
+function showMore() {
+  generateSpeakerBoxes(speakers.length);
   btnMore.style.display = 'none';
   btnLess.style.display = 'flex';
-  // show less
-  const showLess = function () {
-    showSpeakers(2);
-    btnMore.style.display = 'flex';
-    btnLess.style.display = 'none';
-  };
-  btnLess.addEventListener('click', showLess);
-};
-btnMore.addEventListener('click', showMore);
+}
 
-// Open mobile menu
+function showLess() {
+  generateSpeakerBoxes(2);
+  btnMore.style.display = 'flex';
+  btnLess.style.display = 'none';
+}
 
-const mobileMenu = document.querySelector('.mobile-menu');
-const btnOpenMenu = document.querySelector('.hamburger-menu');
-
-const openMenu = function () {
+function openMenu() {
   mobileMenu.style.display = 'flex';
   btnOpenMenu.style.display = 'none';
-};
-btnOpenMenu.addEventListener('click', openMenu);
+}
 
-// Close mobile menu
-
-const btnCloseMenu = document.querySelector('.btn-close-l');
-const linkSection = document.querySelector('.links');
-
-const closeMenu = function () {
+function closeMenu() {
   mobileMenu.style.display = 'none';
   btnOpenMenu.style.display = 'block';
-};
+}
 
+// Event Listeners
+window.addEventListener('load', showSpeakers);
+window.addEventListener('resize', showSpeakers);
+btnMore.addEventListener('click', showMore);
+btnLess.addEventListener('click', showLess);
+btnOpenMenu.addEventListener('click', openMenu);
 btnCloseMenu.addEventListener('click', closeMenu);
 linkSection.addEventListener('click', closeMenu);
