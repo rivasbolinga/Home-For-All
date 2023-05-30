@@ -23,8 +23,8 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -60,7 +60,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://rivasbolinga.github.io/Home-For-All)
+ [📍 Live Demo Link](https://rivasbolinga.github.io/Home-For-All)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,12 +89,33 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 
- 1.Clone this repository to your desired folder:
+ 1. Clone this repository to your desired folder:
  
 
- 2.run: git clone git@github.com:rivasbolinga/Portfolio.git
+ 2. Run:
  
- 2.Open the file in your code editor
+ `
+ git clone https://github.com/rivasbolinga/Home-For-All.git
+ `
+ 
+ 3. Open the file in your code editor
+
+### Install
+
+Run
+
+ `
+ npm install
+ 
+ `
+ ### Usage
+ 
+ To see the project in browser
+
+ `
+ live-server
+ 
+ `
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+
 
 If you like this project...
 
