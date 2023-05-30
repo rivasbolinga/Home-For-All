@@ -27,7 +27,6 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
@@ -129,6 +128,15 @@ Run:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Features -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add transitions**
+- [ ] **Add hover effects**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -144,7 +152,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
 
 
 If you like this project, please don't forget to follow us and give it a star.
