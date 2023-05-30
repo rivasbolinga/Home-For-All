@@ -1,4 +1,4 @@
-## Copyright 2021, [Andrea Rivas Palacios]
+## Copyright 2021,  Andrea Rivas Palacios
 
 
 
