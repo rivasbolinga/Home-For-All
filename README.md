@@ -7,7 +7,8 @@
   <img src="assets/White-Cub-National-Animal-Rights-copy.webp" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  #  💆🏼‍♀️ Home For All  <a name="about-project"></a>
+  ![all-devices-black (4)](https://user-images.githubusercontent.com/103900838/232330635-ecb30b82-94b8-40dd-8b4e-20adc6ba5913.png)
 
 </div>
 
@@ -37,11 +38,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Home For All] <a name="about-project"></a>
 
-> This is a Website of an International Conference in defense of Animal Rights. 
-
-**[Home for all]** is built as part of the Capstone Project, first Module of Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
