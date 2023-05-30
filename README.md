@@ -4,10 +4,10 @@
 
 <div align="center">
 
-  <img src="assets/White-Cub-National-Animal-Rights-copy.webp" alt="logo" width="140"  height="auto" />
+  <img src="assets/White-Cub-National-Animal-Rights-copy.webp" alt="logo" width="240"  height="auto" />
   <br/>
 
-  #  💆🏼‍♀️ Home For All  <a name="about-project"></a>
+  #  🐾 Home For All  <a name="about-project"></a>
 ![all-devices-white](https://github.com/rivasbolinga/Home-For-All/assets/103900838/3a57dc23-79f5-4d23-8675-64181160eb99)
 
 
@@ -27,14 +27,11 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -51,11 +48,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Totally responsive website]**
-- **[Mobile menu implemented with JD]**
-- **[Home and about pages linked between them]**
+- **Responsive: phone, tablet, laptop and desktop**
+- **Mobile menu for mobile and navigation bar for dektop**
+- **Two pages: About page and Home page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +59,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here you can see the live demo of the website:
 
 - [Live Demo Link](https://rivasbolinga.github.io/Home-For-All)
 
