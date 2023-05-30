@@ -102,7 +102,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Run
+Run:
 
  `
  npm install
@@ -110,7 +110,7 @@ Run
  
  ### Usage
  
- To see the project in browser
+ To see the project in browser, run: 
 
  `
  live-server
@@ -147,7 +147,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-f you like this project, please don't forget to follow us and give it a star.
+If you like this project, please don't forget to follow us and give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
