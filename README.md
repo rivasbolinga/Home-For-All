@@ -8,7 +8,8 @@
   <br/>
 
   #  💆🏼‍♀️ Home For All  <a name="about-project"></a>
-  ![all-devices-black (4)](https://user-images.githubusercontent.com/103900838/232330635-ecb30b82-94b8-40dd-8b4e-20adc6ba5913.png)
+![all-devices-white](https://github.com/rivasbolinga/Home-For-All/assets/103900838/3a57dc23-79f5-4d23-8675-64181160eb99)
+
 
 </div>
 
