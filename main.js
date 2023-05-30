@@ -1,13 +1,11 @@
-'use strict';
-
-const speakerBoxesContainer = document.querySelector('.speaker-boxes')
-const desktopMediaQuery = window.matchMedia('(max-width: 767px)')
-const btnMore = document.querySelector('.more-box')
-const btnLess = document.querySelector('.less-box')
-const mobileMenu = document.querySelector('.mobile-menu')
-const btnOpenMenu = document.querySelector('.hamburger-menu')
-const btnCloseMenu = document.querySelector('.btn-close-l')
-const linkSection = document.querySelector('.links')
+const speakerBoxesContainer = document.querySelector('.speaker-boxes');
+const desktopMediaQuery = window.matchMedia('(max-width: 767px)');
+const btnMore = document.querySelector('.more-box');
+const btnLess = document.querySelector('.less-box');
+const mobileMenu = document.querySelector('.mobile-menu');
+const btnOpenMenu = document.querySelector('.hamburger-menu');
+const btnCloseMenu = document.querySelector('.btn-close-l');
+const linkSection = document.querySelector('.links');
 
 // ARRAY of speakers:
 
@@ -57,9 +55,9 @@ const speakers = [
 ];
 
 function generateSpeakerBoxes(n) {
-  let html = ''
-  for (let i = 0; i < n; i++) {
-    const speaker = speakers[i]
+  let html = '';
+  for (let i = 0; i < n; i += 1) {
+    const speaker = speakers[i];
     html += `
       <div class="speaker-box">
         <div class="images-box">
@@ -71,46 +69,46 @@ function generateSpeakerBoxes(n) {
           <div class="grey-line"></div>
           <p class="resume">${speaker.resume}</p>
         </div>
-      </div>`
+      </div>`;
   }
-  speakerBoxesContainer.innerHTML = html
+  speakerBoxesContainer.innerHTML = html;
 }
 
 function showSpeakers() {
   if (desktopMediaQuery.matches) {
-    generateSpeakerBoxes(2)
+    generateSpeakerBoxes(2);
   } else {
-    generateSpeakerBoxes(speakers.length)
+    generateSpeakerBoxes(speakers.length);
   }
 }
 
 function showMore() {
-  generateSpeakerBoxes(speakers.length)
-  btnMore.style.display = 'none'
-  btnLess.style.display = 'flex'
+  generateSpeakerBoxes(speakers.length);
+  btnMore.style.display = 'none';
+  btnLess.style.display = 'flex';
 }
 
 function showLess() {
-  generateSpeakerBoxes(2)
-  btnMore.style.display = 'flex'
-  btnLess.style.display = 'none'
+  generateSpeakerBoxes(2);
+  btnMore.style.display = 'flex';
+  btnLess.style.display = 'none';
 }
 
 function openMenu() {
-  mobileMenu.style.display = 'flex'
-  btnOpenMenu.style.display = 'none'
+  mobileMenu.style.display = 'flex';
+  btnOpenMenu.style.display = 'none';
 }
 
 function closeMenu() {
-  mobileMenu.style.display = 'none'
-  btnOpenMenu.style.display = 'block'
+  mobileMenu.style.display = 'none';
+  btnOpenMenu.style.display = 'block';
 }
 
 // Event Listeners
-window.addEventListener('load', showSpeakers)
-window.addEventListener('resize', showSpeakers)
-btnMore.addEventListener('click', showMore)
-btnLess.addEventListener('click', showLess)
-btnOpenMenu.addEventListener('click', openMenu)
-btnCloseMenu.addEventListener('click', closeMenu)
-linkSection.addEventListener('click', closeMenu)
+window.addEventListener('load', showSpeakers);
+window.addEventListener('resize', showSpeakers);
+btnMore.addEventListener('click', showMore);
+btnLess.addEventListener('click', showLess);
+btnOpenMenu.addEventListener('click', openMenu);
+btnCloseMenu.addEventListener('click', closeMenu);
+linkSection.addEventListener('click', closeMenu);
