@@ -106,15 +106,14 @@ Run
 
  `
  npm install
- 
  `
+ 
  ### Usage
  
  To see the project in browser
 
  `
  live-server
- 
  `
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,7 +147,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-If you like this project...
+f you like this project, please don't forget to follow us and give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,9 +155,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Original design idea by Cindy Shin in Behance. behance.net/adagio07 
->
->Background picture on the introduction section from:
+- Original design idea by Cindy Shin in Behance. behance.net/adagio07 
+
+- Background picture on the introduction section from:
 Photo by <a href="https://unsplash.com/@derstudi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Timon Studler</a> on <a href="https://unsplash.com/photos/ABGaVhJxwDQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
